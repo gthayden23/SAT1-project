@@ -2,28 +2,17 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Sample Extension</title>
+    <title>Info Tester</title>
     <style>
-      body {
-        font-family: sans-serif;
-        margin: 10px;
-        min-width: 200px;
-      }
-      button {
-        width: 100%;
-        padding: 8px 0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 14px;
-      }
+      body { font-family: sans-serif; margin: 10px; min-width: 240px; }
+      button { width: 100%; padding: 8px 0; }
+      pre { white-space: pre-wrap; background: #f0f0f0; padding: 8px; }
     </style>
   </head>
   <body>
-    <h3>Color Changer</h3>
-    <p>Click the button to change the page background.</p>
-    <button id="changeColor">Change Background</button>
-
+    <h3>Collect Info</h3>
+    <button id="collect">Collect</button>
+    <pre id="output"></pre>
     <script src="popup.js"></script>
   </body>
 </html>

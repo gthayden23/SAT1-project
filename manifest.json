@@ -1,11 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Sample Color Changer",
+  "name": "Cookie and Device Info Tester",
   "version": "1.0",
-  "description": "A simple demo extension that changes the current page background color.",
+  "description": "Reads your cookies and gathers basic device characteristics for testing.",
   "permissions": [
-    "scripting",
-    "activeTab"
+    "cookies",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
   ],
   "action": {
     "default_popup": "popup.html"

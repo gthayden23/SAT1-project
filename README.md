@@ -12,6 +12,7 @@ Installing the Extension in Firefox
 To install the extension temporarily in Firefox, open the browser and enter about:debugging into the address bar. Select “This Firefox.” Choose the option to load a temporary add-on. A file chooser will appear. Select the manifest.json file inside your extension folder. Firefox will load the extension for the current session. As a heads up Firefox removes temporary add-ons when the browser closes.
 
 The SQL table is made by:
+
 CREATE TABLE collected_data (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
 
